@@ -1,5 +1,7 @@
 # Boilermaker
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/glebec/boilermaker-travis.svg)](https://greenkeeper.io/)
+
 *Good things come in pairs*
 
 Looking to mix up a backend with express/sequelize and a frontend with react/redux? That's `boilermaker`!
