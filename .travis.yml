@@ -10,3 +10,5 @@ sudo: false # when on trusty, uses Docker containers for speed
 before_script:
   - psql -c 'create database boilermaker-test;' -U postgres # remember to change this name if you change it elsewhere (e.g. package.json)
 cache: yarn # speeds up yarn installs
+deploy:
+  skip_cleanup: true # prevents travis from deleting the build
